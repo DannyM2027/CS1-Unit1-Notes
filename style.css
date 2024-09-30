@@ -1,0 +1,32 @@
+/* This is a css comment */
+
+/* Select by element TYPE*/
+p {
+    color:rgb(20, 89, 121);
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+
+/* Select by CLASS name*/
+.border {
+    border: 2px solid black
+}
+
+
+/* Select by ID name (unique) */
+#intro {
+    background-color: gainsboro;
+}
+
+/* Select by element TYPE*/
+li {
+    color: rgb(16, 147, 170)
+}
+
+/* Select by element TYPE*/
+li {
+    font-family: cursive;
+}
