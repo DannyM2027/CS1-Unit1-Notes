@@ -6,13 +6,15 @@ p {
 }
 
 h1, h2, h3 {
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 
 /* Select by CLASS name*/
 .border {
-    border: 2px solid black
+    border: 2px solid black;
+    background-color: rgb(34, 156, 194);
 }
 
 
@@ -30,3 +32,21 @@ li {
 li {
     font-family: cursive;
 }
+
+
+/* Properties: colors and typography*/
+em {
+    color: rgb(194, 92, 134);
+    background-color: whitesmoke;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    
+
+}
+
+h1 {
+    text-align: center;
+   
+}
+
