@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100..900&family=Noto+Sans+Hebrew:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100..900&family=Noto+Sans+Hebrew:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100..900&family=Noto+Sans+Hebrew:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 /* This is a css comment */
 
 /* Select by element TYPE*/
+body {
+    background-color: rgb(201, 200, 223);
+}
+
 p {
     color:rgb(20, 89, 121);
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 h1, h2, h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+h1 {
+    text-align: center;
+    font-family: "Qwitcher Grypen", cursive;
 }
 
 
@@ -45,8 +59,4 @@ em {
 
 }
 
-h1 {
-    text-align: center;
-   
-}
 
