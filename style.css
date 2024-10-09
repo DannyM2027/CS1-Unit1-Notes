@@ -28,7 +28,7 @@ h1 {
 /* Select by CLASS name*/
 .border {
     border: 2px solid black;
-    background-color: rgb(34, 156, 194);
+    background-color: rgb(25, 155, 194);
 }
 
 
@@ -59,4 +59,16 @@ em {
 
 }
 
-
+/* Box Model: margin, border, padding, content*/
+img {
+    border-width: 200px;
+    border-style: dashed;
+    border-color:rgb(255, 3, 3);
+    border-radius: 100%
+}
+hr {
+    border-width: 100px;
+    border-style: dashed;
+    border-color:rgb(215, 53, 255);
+    border-radius: 100%
+}
