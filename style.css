@@ -22,6 +22,8 @@ h1, h2, h3 {
 h1 {
     text-align: center;
     font-family: "Qwitcher Grypen", cursive;
+    margin: 7%;
+    padding: 50px
 }
 
 
@@ -64,11 +66,18 @@ img {
     border-width: 200px;
     border-style: dashed;
     border-color:rgb(255, 3, 3);
-    border-radius: 100%
+    border-radius: 100%;
+    
 }
 hr {
     border-width: 100px;
     border-style: dashed;
     border-color:rgb(215, 53, 255);
-    border-radius: 100%
+    border-radius: 100%;
+}
+/* TIP: easy way to center anything */
+.centered-container {
+    margin: auto;
+    text-align: center;
+
 }
